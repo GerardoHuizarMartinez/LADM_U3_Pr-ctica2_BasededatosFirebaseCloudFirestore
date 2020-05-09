@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Datos"
+        android:textSize="21dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/main2name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Quien realiza el pedido (Nombre)" />
+
+    <EditText
+        android:id="@+id/main2address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Domicilio" />
+
+    <EditText
+        android:id="@+id/main2telephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Celular/Telefono"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pedido"
+        android:textSize="21dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/main2description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Descripcion" />
+
+    <EditText
+        android:id="@+id/main2price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Precio"/>
+
+    <EditText
+        android:id="@+id/main2quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:hint="Cantidad"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical">
+
+        <Switch
+            android:id="@+id/main2orderStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_marginLeft="70dp"
+            android:checked="true"
+            android:text="Estado    " />
+
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/Main2btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar pedido" />
+
+    <Button
+        android:id="@+id/main2Back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancelar" />
+
+
+</LinearLayout>

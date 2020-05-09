@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LADM_U3_Practica2_BasededatosFirebaseCloudFirestore</string>
+
+    <array name="clavesbusqueda">
+        <item>Nombre</item>
+        <item>Direccion</item>
+        <item>Telefono</item>
+        <item>Descripcion</item>
+        <item>Precio</item>
+        <item>Cantidad</item>
+        <item>Estado (Entregados / no entregados) </item>
+    </array>
+
+</resources>
